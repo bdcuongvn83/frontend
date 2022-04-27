@@ -1,0 +1,143 @@
+body{
+    background-color: #FAD0C3;
+}
+.banner {
+    margin-top: 30rem;
+    width: 100%;
+    max-width: 600px;
+    background-color: red;
+    height: 150px;
+    position: relative;
+    order: 1;
+    margin: auto;
+    
+   //display: flex;
+   //justify-content: center;
+    
+   
+    img {
+        max-width: 100%;
+        height: 100px;
+        max-height: 100%;
+        width: 100px;
+        left: calc(50% - 50px);
+        top: 80px;
+        position: absolute;
+        z-index: 10;
+        border-radius: 50% 50%;
+        padding: 10px;
+        background-color: white;
+    }
+}
+.order{
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 600px;
+    background-color: white;
+    border: 1px solid grey;
+    z-index: 5;
+    
+    .header{
+        margin-top: 50px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    #productId{
+        .item{
+            display: flex;
+            align-items: flex-start;
+            justify-content :center;
+            line-height: 30px;
+            line-height: 30px;
+            .itemName{
+                flex-basis: 10rem;
+                padding-left: 3rem;
+            }
+            .itemQuantity{
+                flex-basis: 10rem;
+                button{
+                    padding: 0.1rem;
+                }
+                .quantity{
+                    padding: 0.1rem;
+                    width: 3rem;
+                }
+            }
+            .itemPrice {
+                margin-left: auto;
+                padding-right: 3rem;
+                button{
+                    padding: 0.1rem;
+                }
+            }
+        }
+    }
+    
+    .AddFood{
+        padding-left: 3rem;
+        button{
+            width: 10rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            padding: 0.2rem;
+            border-radius: 5px 5px;
+        }
+    }
+    .summary{
+        margin-top: 1rem;
+        background-color: #BDC3C7;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        padding: 0.5rem;
+        border-radius: 5px 5px;
+        .summaryItem{
+            .summaryItem_left{
+                padding-left: 0.5rem;
+                font-size: 1.5rem;
+                font-weight: 500;
+                
+            }
+            .summaryItem_right{
+                float: right;
+                padding-right: 0.5rem;
+                font-size: 1.5rem;
+                font-weight: 600;
+                
+            }
+        }
+    }
+    .checkout{
+        margin-top: 1rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        border-radius: 10px 10px;
+        width: 90%;
+        margin-bottom: 1.5rem;
+        button{
+            width: 100%;
+            background-color: red;
+            height: 50px;
+            position: relative;
+            border-radius: 10px 10px;
+            
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        
+    }
+    
+
+}
+.marginTop{
+    margin-top: 50px;
+}
+.margin{
+    margin-top: 10px;
+}
+
+

@@ -1,0 +1,75 @@
+<html>
+    <!-- author : BUI DUC CUONG 
+        ADDRESS: BACH DANG, 15 WARD, BINH THANH DISTRICT, HO CHI MINH CITY, VIETNAM
+    -->
+<head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    
+</head>
+
+
+<body>
+    <div class="banner">
+        <img class="imgBanner"
+            src="images/logoKFC.jpeg" />
+    </div>
+    <div class="order">
+        <div class="header"> Your order of KFC</div>
+        <div id="productId">
+            <div class="item"> 
+
+                <div class="itemName">Pizza 1</div>
+                <div class="itemQuantity">
+                    <button class="btnDecrease">-</button>
+                    <input type="number" class="quantity" value="1"></input>
+                    <button class="btnIncrease">+</button>
+                </div>
+                <div class="itemPrice">
+                    <span class="money">1000$</span>
+                    <button onclick="fncRemove()" class="btnRemove">x</button>
+                </div>
+                
+            </div>
+            <div class="item"> 
+
+                <div class="itemName">Pizza 2</div>
+                <div class="itemQuantity">
+                    <button class="btnDecrease">-</button>
+                    <input type="number" class="quantity" value="1"></input>
+                    <button class="btnIncrease">+</button>
+                </div>
+                <div class="itemPrice">
+                    <span class="money">1000$</span>
+                    <button class="btnRemove">x</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="AddFood margin">
+            <button id="addFoodId">Add food</button> 
+        </div>
+        <div class="summary">
+            <div class="summaryItem">
+              <span class="summaryItem_left">Sub total</span>
+              <span id="SubTotalId" class="summaryItem_right">1000$</span>
+            </div>
+            <div class="summaryItem">
+                <span class="summaryItem_left">Shipping</span>
+                <span id="ShippingId" class="summaryItem_right">2000$</span>
+              </div>
+            <div class="summaryItem">
+                <span class="summaryItem_left">Total</span>
+                <span id="totalId" class="summaryItem_right">3000$</span>
+            </div>
+        </div>
+        <div class="checkout">
+            <button id="checkoutId">Checkout</button>
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>

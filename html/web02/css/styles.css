@@ -1,0 +1,122 @@
+body {
+  background-color: #FAD0C3;
+}
+.banner {
+  margin-top: 30rem;
+  width: 100%;
+  max-width: 600px;
+  background-color: red;
+  height: 150px;
+  position: relative;
+  order: 1;
+  margin: auto;
+}
+.banner img {
+  max-width: 100%;
+  height: 100px;
+  max-height: 100%;
+  width: 100px;
+  left: calc(50% - 50px);
+  top: 80px;
+  position: absolute;
+  z-index: 10;
+  border-radius: 50% 50%;
+  padding: 10px;
+  background-color: white;
+}
+.order {
+  position: relative;
+  margin: auto;
+  height: auto;
+  width: 600px;
+  background-color: white;
+  border: 1px solid grey;
+  z-index: 5;
+}
+.order .header {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.order #productId .item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  line-height: 30px;
+}
+.order #productId .item .itemName {
+  flex-basis: 10rem;
+  padding-left: 3rem;
+}
+.order #productId .item .itemQuantity {
+  flex-basis: 10rem;
+}
+.order #productId .item .itemQuantity button {
+  padding: 0.1rem;
+}
+.order #productId .item .itemQuantity .quantity {
+  padding: 0.1rem;
+  width: 3rem;
+}
+.order #productId .item .itemPrice {
+  margin-left: auto;
+  padding-right: 3rem;
+}
+.order #productId .item .itemPrice button {
+  padding: 0.1rem;
+}
+.order .AddFood {
+  padding-left: 3rem;
+}
+.order .AddFood button {
+  width: 10rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.2rem;
+  border-radius: 5px 5px;
+}
+.order .summary {
+  margin-top: 1rem;
+  background-color: #BDC3C7;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 5px 5px;
+}
+.order .summary .summaryItem .summaryItem_left {
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.order .summary .summaryItem .summaryItem_right {
+  float: right;
+  padding-right: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.order .checkout {
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  border-radius: 10px 10px;
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+.order .checkout button {
+  width: 100%;
+  background-color: red;
+  height: 50px;
+  position: relative;
+  border-radius: 10px 10px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.marginTop {
+  margin-top: 50px;
+}
+.margin {
+  margin-top: 10px;
+}

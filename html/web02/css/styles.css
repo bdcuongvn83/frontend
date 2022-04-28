@@ -1,7 +1,18 @@
 body {
   background-color: #FAD0C3;
 }
+.content_main {
+  width: 100%;
+  max-width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 10px 10px;
+}
 .banner {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 30rem;
   width: 100%;
   max-width: 600px;
@@ -10,6 +21,7 @@ body {
   position: relative;
   order: 1;
   margin: auto;
+  border-radius: 10px 10px 0px 0px;
 }
 .banner img {
   max-width: 100%;
@@ -32,6 +44,7 @@ body {
   background-color: white;
   border: 1px solid grey;
   z-index: 5;
+  border-radius: 0px 0px 10px 10px;
 }
 .order .header {
   margin-top: 50px;

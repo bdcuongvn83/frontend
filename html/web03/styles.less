@@ -1,0 +1,60 @@
+//author : BUI DUC CUONG 
+//ADDRESS: 275/40z5 BACH DANG, 15 WARD, BINH THANH DISTRICT, HO CHI MINH CITY, VIETNAM
+//Email: bdcuongvn83@gmail.com
+
+
+body{
+    
+    background-color: #FAD0C3;
+}
+.content_main {
+    width: 100%;
+    max-width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px px;
+    button{
+        height: 100%;
+        width: 100px;
+        padding: 0px;
+        text-align: center;
+        font-size: 1.0rem;
+        border: none;
+        background-color: #DADFE1;
+        color:indianred;
+    }
+    .slide-container{
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        .slides{
+            width: 2500px;
+            transition: 1s all;
+            
+            .slide{
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+            }
+        }
+    }
+    .slide-container *{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    img{
+        height: 400px;
+        float: left;
+        width: 400px;
+        
+    }
+    .animate_fading{
+        //animation : fading 10s infinite;
+        animation-direction:normal;
+    }
+    
+}
